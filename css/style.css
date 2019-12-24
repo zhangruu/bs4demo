@@ -22,7 +22,7 @@
 .left_box .active {
 	background-color: #3c4248;
 }
-.left_box .tab {
+.left_box .anniu {
 	height: 16px;
 	position: relative;
 	top: 18px;
@@ -35,14 +35,14 @@
 	bottom: 0;
 	overflow: auto;
 }
-.right_box .con {
+.right_box .content {
 	width: 100%;
 }
-.right_box .con .po {
+.right_box .content .w {
 	position: absolute;
 	right: 15px;
 }
-.right_box .con h6 {
+.right_box .content h6 {
 	height: 3rem;
 	line-height: 3rem;
 	color: #6c757d;
