@@ -1,0 +1,50 @@
+.row {
+	padding: 0;
+	margin: 0;
+}
+.left_box {
+	width: 12rem;
+	background-color: #283643;
+	position: fixed;
+	top: 3.5rem;
+	left: 0;
+	bottom: 0;
+}
+.left_box a {
+	color: #fff;
+	padding:0 2rem;
+	line-height: 3rem;
+	background-color: #283643;
+}
+.left_box a:hover {
+	background-color: #3c4248;
+}
+.left_box .active {
+	background-color: #3c4248;
+}
+.left_box .tab {
+	height: 16px;
+	position: relative;
+	top: 18px;
+}
+.right_box {
+	position: fixed;
+	top: 3.5rem;
+	left: 12rem;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+.right_box .con {
+	width: 100%;
+}
+.right_box .con .po {
+	position: absolute;
+	right: 15px;
+}
+.right_box .con h6 {
+	height: 3rem;
+	line-height: 3rem;
+	color: #6c757d;
+	border-bottom: 2px solid #e9ecef;
+}
